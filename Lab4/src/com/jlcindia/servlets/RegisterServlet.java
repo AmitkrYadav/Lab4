@@ -8,6 +8,8 @@ import javax.servlet.http.*;
 public class RegisterServlet extends HttpServlet {
 protected void service(HttpServletRequest req,HttpServletResponse res)throws ServletException,IOException{
 	System.out.println("service()");
+	
+	System.out.println("servicdfkugoerlhj;ele()");
 	// 1.Collect the Data
 	String fn=req.getParameter("fname");
 	String em=req.getParameter("email");
